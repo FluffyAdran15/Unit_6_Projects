@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: 
+   Date: 
+	
+   Filename: br_layout.css
+
+*/
+/* HTML and Body Styles */
+
+html {
+    background: url(br_paper.png) center/cover fixed;
+    font-size: 12px;
+    font-family: Tahoma, Geneva, sans-serif;
+ }
+ 
+ body {
+    background-color: rgb(255, 235, 180);
+    margin: 0px auto;
+    width: 90%;
+    max-width: 1100px;
+    min-width: 720px;
+ }
+ 
+ /* Header Navigation Styles */
+ 
+ header {
+    background-color: rgb(255, 219, 140);
+    height: 225px;
+    margin-bottom: 30px;
+    position: relative;
+ }
+ header img{
+    display: block;
+    width: 100%;
+ }
+ nav#house li{
+    display: block;
+    float: left;
+    position: relative;
+    width: 20%;
+ }
+ nav#house a{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+ }
+
+ /* Footer Styles */
+ 

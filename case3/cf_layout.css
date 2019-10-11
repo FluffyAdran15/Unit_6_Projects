@@ -27,7 +27,7 @@ body {
 
 /* Header Styles */
 
-body > header > img {
+header > img {
 	display: block;
 	width: 100%;
 }
